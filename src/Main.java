@@ -36,11 +36,14 @@ public class Main {
                 encryptedMessage += c;
             } else {
                 System.out.println("Invalid input. Please enter 'e' or 'd'.");
+                return;
             }
-            return;
+
         }
+
         System.out.println("Encrypted message: " + encryptedMessage);
     }
+
 }
 
 

@@ -23,6 +23,7 @@ public class Main {
         String encryptedMessage = "";
 
         for (int i = 0; i < message.length(); i++) {
+
             char c = message.charAt(i);
 
             if (pick == 'e') {
@@ -36,9 +37,11 @@ public class Main {
             } else {
                 System.out.println("Invalid input. Please enter 'e' or 'd'.");
             }
+            return;
         }
         System.out.println("Encrypted message: " + encryptedMessage);
-    }}
+    }
+}
 
 
 

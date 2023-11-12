@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.*;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -111,6 +112,7 @@ public class MorseCode {
         }
 
         System.out.print("Morse code " + code + " to English is "+ F_result); // Morse code to English
+        System.out.println();
     }
 
 
